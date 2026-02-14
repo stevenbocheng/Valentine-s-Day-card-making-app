@@ -490,7 +490,7 @@ const App = () => {
               exit={{ x: -400, opacity: 0 }}
               className="fixed lg:relative left-0 top-0 z-[100] w-full sm:w-[380px] h-full lg:h-[88dvh] bg-white/95 backdrop-blur-2xl lg:rounded-[3rem] p-6 sm:p-8 shadow-2xl border-r lg:border border-white overflow-y-auto custom-scrollbar flex flex-col"
             >
-              <div className="flex justify-between items-center mb-6 font-['Ma_Shan_Zheng']">
+              <div className="flex justify-between items-center mb-6">
                 <h2 className="text-2xl font-bold text-rose-600 flex items-center gap-2">
                   <Settings size={24} /> 編輯模式
                 </h2>
@@ -702,7 +702,7 @@ const App = () => {
                   <motion.div animate={{ scale: [1, 1.1, 1] }} transition={{ repeat: Infinity, duration: 4 }} className="mb-8 z-10">
                     <Heart fill="white" className="text-white drop-shadow-2xl" size={100} />
                   </motion.div>
-                  <h1 className="text-white text-3xl lg:text-5xl font-bold font-['Ma_Shan_Zheng'] mb-10 tracking-[0.2em] text-center leading-tight z-10 drop-shadow-md">
+                  <h1 className="text-white text-3xl lg:text-5xl font-bold mb-10 tracking-[0.2em] text-center leading-tight z-10 drop-shadow-md">
                     {config.coverTitle}
                   </h1>
                   <div className="px-10 py-3 bg-white/20 backdrop-blur-md rounded-full text-white font-bold flex items-center gap-4 border border-white/40 shadow-xl z-10 group-hover:bg-white/30 transition-all">
@@ -762,7 +762,7 @@ const App = () => {
                         )}
                       </div>
 
-                      <h3 className="text-rose-500 font-bold text-2xl sm:text-3xl mb-4 border-b-2 border-rose-50 pb-2 px-6 inline-block tracking-widest font-['Ma_Shan_Zheng'] shrink-0">
+                      <h3 className="text-rose-500 font-bold text-2xl sm:text-3xl mb-4 border-b-2 border-rose-50 pb-2 px-6 inline-block tracking-widest shrink-0">
                         致：{config.toName}
                       </h3>
 
