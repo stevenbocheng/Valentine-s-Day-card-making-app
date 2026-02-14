@@ -2,13 +2,13 @@ import { initializeApp } from "firebase/app";
 import { getFirestore, collection, addDoc, doc, getDoc } from "firebase/firestore";
 
 const firebaseConfig = {
-    apiKey: "AIzaSyCG6paNnE4TnSMNs64Q0lMtqPB4_7YxoJk",
-    authDomain: "valentines-day-card-making.firebaseapp.com",
-    projectId: "valentines-day-card-making",
-    storageBucket: "valentines-day-card-making.firebasestorage.app",
-    messagingSenderId: "374825027092",
-    appId: "1:374825027092:web:aef158b200e96b913b0901",
-    measurementId: "G-40SYN8RE9P"
+    apiKey: import.meta.env.VITE_FIREBASE_API_KEY,
+    authDomain: import.meta.env.VITE_FIREBASE_AUTH_DOMAIN,
+    projectId: import.meta.env.VITE_FIREBASE_PROJECT_ID,
+    storageBucket: import.meta.env.VITE_FIREBASE_STORAGE_BUCKET,
+    messagingSenderId: import.meta.env.VITE_FIREBASE_MESSAGING_SENDER_ID,
+    appId: import.meta.env.VITE_FIREBASE_APP_ID,
+    measurementId: import.meta.env.VITE_FIREBASE_MEASUREMENT_ID
 };
 
 // Initialize Firebase
