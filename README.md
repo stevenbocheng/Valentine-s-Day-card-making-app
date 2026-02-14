@@ -1,20 +1,53 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# Valentine's Day Card Making App
 
-# Run and deploy your AI Studio app
+A React application for creating custom Valentine's Day cards.
 
-This contains everything you need to run your app locally.
+## Features
+- Custom card design
+- Personalized messages
+- Download or share your card
 
-View your app in AI Studio: https://ai.studio/apps/drive/1ygOiZWuohmSljCP5KzJY2DCZLeXeSDA3
+## Getting Started
 
-## Run Locally
+### Prerequisites
+- Node.js (v20 or higher recommended)
+- npm or yarn
 
-**Prerequisites:**  Node.js
+### Installation
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/stevenbocheng/Valentine-s-Day-card-making-app.git
+   ```
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
 
+### Development
+Run the development server:
+```bash
+npm run dev
+```
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+## Deployment
+
+### Manual Deployment
+You can deploy to GitHub Pages manually using the `gh-pages` package:
+```bash
+npm run deploy
+```
+
+### Automated Deployment (GitHub Actions)
+This repository includes a GitHub Action to automatically deploy to GitHub Pages when you push to the `main` branch.
+
+**Configuration:**
+1. Go to your repository **Settings**.
+2. Click on **Pages** in the left sidebar.
+3. Under **Build and deployment** > **Source**, select **GitHub Actions**.
+4. Push your changes to `main`. The action will automatically build and deploy the site.
+
+## Technologies
+- [React](https://react.dev/)
+- [Vite](https://vitejs.dev/)
+- [Tailwind CSS](https://tailwindcss.com/) (if applicable)
